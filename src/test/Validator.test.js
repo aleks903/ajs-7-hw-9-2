@@ -24,3 +24,8 @@ test('Проверка валидации = dwd1-dsad', () => {
   const received = new Validator();
   expect(received.validateUsername('dwd123-ds_ad')).toBe(true);
 });
+
+test('Проверка валидации = AR4ANG3L', () => {
+  const received = new Validator();
+  expect(received.validateUsername('AR4ANG3L')).toBe(true);
+});
